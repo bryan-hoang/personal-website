@@ -8,7 +8,8 @@
     "lint": "eslint --ext ts,tsx,js .",
     "start": "next start",
     "test": "jest",
-    "test-all": "npm lint && npm type-check && npm test"
+    "test-all": "npm lint && npm type-check && npm test",
+    "type-check": "tsc --pretty --noEmit"
   },
   "husky": {
     "hooks": {

@@ -1,10 +1,9 @@
-import Head from 'next/head'
+import Head from 'next/head';
 
 export const Home = (): JSX.Element => (
   <div className="container">
     <Head>
       <title>Bryan Hoang</title>
-      <link rel="icon" href="/favicon.ico" />
     </Head>
 
     <main>
@@ -18,7 +17,7 @@ export const Home = (): JSX.Element => (
 
       <button
         onClick={() => {
-          window.alert('With typescript and Jest')
+          window.alert('With typescript and Jest');
         }}
       >
         Test Button
@@ -208,6 +207,6 @@ export const Home = (): JSX.Element => (
       }
     `}</style>
   </div>
-)
+);
 
-export default Home
+export default Home;

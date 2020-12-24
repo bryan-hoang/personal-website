@@ -1,4 +1,4 @@
 module.exports = {
-  '*.@(ts|tsx)': [() => 'tsc --pretty --noEmit', 'npm run lint'],
+  '*.@(ts|tsx)': [() => 'npm run type-check', 'npm run lint'],
   '*.@(json|md|svg)': ['npm run format'],
-}
+};
