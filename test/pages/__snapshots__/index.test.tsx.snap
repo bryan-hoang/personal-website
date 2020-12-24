@@ -2,120 +2,131 @@
 
 exports[`Home page matches snapshot 1`] = `
 <DocumentFragment>
-  <div
-    class="jsx-2250570153 container"
+  <label
+    class="chakra-switch css-xsxgo8"
   >
-    <main
-      class="jsx-2250570153"
+    <input
+      class="chakra-switch__input"
+      style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; white-space: nowrap; position: absolute;"
+      type="checkbox"
+      value=""
+    />
+    <span
+      aria-hidden="true"
+      class="chakra-switch__track css-14qxnv8"
     >
-      <h1
-        class="jsx-2250570153 title"
-      >
-        Welcome to 
-        <a
-          class="jsx-2250570153"
-          href="https://nextjs.org"
-        >
-          Next.js!
-        </a>
-      </h1>
-      <p
-        class="jsx-2250570153 description"
-      >
-        Get started by editing 
-        <code
-          class="jsx-2250570153"
-        >
-          pages/index.tsx
-        </code>
-      </p>
-      <button
-        class="jsx-2250570153"
-      >
-        Test Button
-      </button>
-      <div
-        class="jsx-2250570153 grid"
-      >
-        <a
-          class="jsx-2250570153 card"
-          href="https://nextjs.org/docs"
-        >
-          <h3
-            class="jsx-2250570153"
-          >
-            Documentation →
-          </h3>
-          <p
-            class="jsx-2250570153"
-          >
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-        <a
-          class="jsx-2250570153 card"
-          href="https://nextjs.org/learn"
-        >
-          <h3
-            class="jsx-2250570153"
-          >
-            Learn →
-          </h3>
-          <p
-            class="jsx-2250570153"
-          >
-            Learn about Next.js in an interactive course with quizzes!
-          </p>
-        </a>
-        <a
-          class="jsx-2250570153 card"
-          href="https://github.com/vercel/next.js/tree/master/examples"
-        >
-          <h3
-            class="jsx-2250570153"
-          >
-            Examples →
-          </h3>
-          <p
-            class="jsx-2250570153"
-          >
-            Discover and deploy boilerplate example Next.js projects.
-          </p>
-        </a>
-        <a
-          class="jsx-2250570153 card"
-          href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-        >
-          <h3
-            class="jsx-2250570153"
-          >
-            Deploy →
-          </h3>
-          <p
-            class="jsx-2250570153"
-          >
-            Instantly deploy your Next.js site to a public URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-    <footer
-      class="jsx-2250570153"
+      <span
+        class="chakra-switch__thumb css-0"
+      />
+    </span>
+  </label>
+  <main
+    class="jsx-2250570153"
+  >
+    <h1
+      class="jsx-2250570153 title"
     >
+      Welcome to 
       <a
         class="jsx-2250570153"
-        href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-        rel="noopener noreferrer"
-        target="_blank"
+        href="https://nextjs.org"
       >
-        Powered by 
-        <img
-          alt="Vercel Logo"
-          class="jsx-2250570153 logo"
-          src="/vercel.svg"
-        />
+        Next.js!
       </a>
-    </footer>
-  </div>
+    </h1>
+    <p
+      class="jsx-2250570153 description"
+    >
+      Get started by editing 
+      <code
+        class="chakra-code css-1baulvz"
+      >
+        pages/index.tsx
+      </code>
+    </p>
+    <button
+      class="jsx-2250570153"
+    >
+      Test Button
+    </button>
+    <div
+      class="jsx-2250570153 grid"
+    >
+      <a
+        class="jsx-2250570153 card"
+        href="https://nextjs.org/docs"
+      >
+        <h3
+          class="jsx-2250570153"
+        >
+          Documentation →
+        </h3>
+        <p
+          class="jsx-2250570153"
+        >
+          Find in-depth information about Next.js features and API.
+        </p>
+      </a>
+      <a
+        class="jsx-2250570153 card"
+        href="https://nextjs.org/learn"
+      >
+        <h3
+          class="jsx-2250570153"
+        >
+          Learn →
+        </h3>
+        <p
+          class="jsx-2250570153"
+        >
+          Learn about Next.js in an interactive course with quizzes!
+        </p>
+      </a>
+      <a
+        class="jsx-2250570153 card"
+        href="https://github.com/vercel/next.js/tree/master/examples"
+      >
+        <h3
+          class="jsx-2250570153"
+        >
+          Examples →
+        </h3>
+        <p
+          class="jsx-2250570153"
+        >
+          Discover and deploy boilerplate example Next.js projects.
+        </p>
+      </a>
+      <a
+        class="jsx-2250570153 card"
+        href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+      >
+        <h3
+          class="jsx-2250570153"
+        >
+          Deploy →
+        </h3>
+        <p
+          class="jsx-2250570153"
+        >
+          Instantly deploy your Next.js site to a public URL with Vercel.
+        </p>
+      </a>
+    </div>
+  </main>
+  <footer
+    class="jsx-2250570153"
+  >
+    <a
+      class="jsx-2250570153"
+      href="/"
+    >
+      <img
+        alt="Website Logo"
+        class="jsx-2250570153 logo"
+        src="/favicon.ico"
+      />
+    </a>
+  </footer>
 </DocumentFragment>
 `;
