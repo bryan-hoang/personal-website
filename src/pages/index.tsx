@@ -1,18 +1,21 @@
 import Head from 'next/head';
+import { Code } from '@chakra-ui/react';
+
+import DarkModeSwitch from '../components/DarkModeSwitch';
 
 export const Home = (): JSX.Element => (
-  <div className="container">
+  <>
     <Head>
       <title>Bryan Hoang</title>
     </Head>
-
+    <DarkModeSwitch />
     <main>
       <h1 className="title">
         Welcome to <a href="https://nextjs.org">Next.js!</a>
       </h1>
 
       <p className="description">
-        Get started by editing <code>pages/index.tsx</code>
+        Get started by editing <Code>pages/index.tsx</Code>
       </p>
 
       <button
@@ -206,7 +209,7 @@ export const Home = (): JSX.Element => (
         box-sizing: border-box;
       }
     `}</style>
-  </div>
+  </>
 );
 
 export default Home;
