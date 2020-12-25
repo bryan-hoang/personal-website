@@ -28,7 +28,6 @@ jobs:
         run: |
           # Build and test the project
           npm install
-          npm run build
-          npm run lint
           npm run format
+          npm run lint
           npm run test
